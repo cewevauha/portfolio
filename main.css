@@ -1,0 +1,336 @@
+/** @format */
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.hero-image-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  transform: rotate(180deg);
+}
+
+.hero-image-2 {
+  position: absolute;
+  top: 2386px;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  transform: rotate(180deg);
+}
+
+.innerWrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  z-index: 999;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  background-color: #000;
+  width: 650px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.headline {
+  position: absolute;
+  top: 197px;
+  left: 0;
+  font-size: 64px;
+  line-height: 90px;
+  font-weight: 900;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.profile-img {
+  position: absolute;
+  top: 464px;
+  left: 0px;
+  border-radius: 15px;
+  width: 459px;
+  height: 479px;
+  object-fit: cover;
+}
+
+.personal-data-wrapper {
+  position: absolute;
+  top: 648px;
+  left: 575px;
+  line-height: 44px;
+  display: inline-block;
+  width: 535px;
+  height: 317px;
+}
+
+.personal-data-b {
+  text-transform: uppercase;
+}
+.blank-line-p,
+.personal-data {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.blank-line-p {
+  font-size: 20px;
+}
+.name-b {
+  font-family: Inter;
+}
+.place-of-birth-waldbrl-germ {
+  margin: 0;
+}
+
+.education-wrapper,
+.my-projects-div,
+.work-wrapper {
+  position: absolute;
+  top: 1097px;
+  left: 0px;
+  line-height: 44px;
+  display: inline-block;
+  width: 100%;
+  height: 389px;
+}
+.my-projects-div,
+.work-wrapper {
+  top: 1549px;
+  left: 0px;
+  height: 360px;
+}
+.my-projects-div {
+  top: 2507px;
+  left: 0px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  width: 307px;
+  height: 49px;
+}
+
+.contact-me-div {
+  position: absolute;
+  top: 30px;
+  left: 29px;
+  line-height: 44px;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  width: 307px;
+  height: 49px;
+}
+.group-div-last {
+  position: absolute;
+  top: 3573px;
+  left: 0px;
+  width: 364px;
+  height: 109px;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  background-color: #000;
+  width: 650px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+}
+.group-div-wrapper {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 2619px;
+}
+
+.group-div {
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  width: 361px;
+  height: 567px;
+  text-align: center;
+}
+
+.skills-headline {
+  position: absolute;
+  top: 2019px;
+  left: 0px;
+  line-height: 44px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 204px;
+  height: 42px;
+}
+
+.rectangle-div1 {
+  position: absolute;
+  top: 52px;
+  left: 449px;
+  border-radius: 15px;
+  background-color: #000;
+  width: 642px;
+  height: 86px;
+}
+.home-data-education-work-skill {
+  position: absolute;
+  top: 72px;
+  left: 459px;
+  font-size: 20px;
+  line-height: 44px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  width: 625px;
+  height: 39px;
+}
+
+.skill-img-wrapper {
+  position: absolute;
+  top: 2124px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.skill-img {
+  width: 127px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.rectangle-div2 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  border-radius: 15px;
+  background-color: #fff;
+  width: 360px;
+  height: 567px;
+}
+.bildschirmfoto-2022-07-06-um-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  width: 361px;
+  height: 277px;
+  object-fit: cover;
+}
+.nord-sd-fahrt {
+  position: absolute;
+  top: 299px;
+  left: 52px;
+  line-height: 44px;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  width: 262px;
+  height: 37px;
+}
+.in-the-long-term-project-nord {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 353px;
+  left: 18px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: Inter;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  width: 323px;
+  height: 177px;
+}
+
+.visual-street-fight {
+  position: absolute;
+  top: 299px;
+  left: 35px;
+  line-height: 44px;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  width: 296px;
+  height: 37px;
+}
+.in-the-medium-term-project-vi {
+  position: absolute;
+  top: 353px;
+  left: 11px;
+  font-size: 20px;
+  line-height: 30px;
+  display: inline-block;
+  width: 337px;
+  height: 177px;
+}
+
+.bildschirmfoto-2022-07-06-um-12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px 15px 0 0;
+  width: 361px;
+  height: 277px;
+  object-fit: cover;
+}
+.in-this-scientific-seminar-le {
+  position: absolute;
+  top: 353px;
+  left: 18px;
+  font-size: 20px;
+  line-height: 30px;
+  display: inline-block;
+  width: 323px;
+  height: 177px;
+}
+
+.ail-span {
+  font-weight: 800;
+}
+.contact-infos {
+  position: absolute;
+  top: 3714px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  line-height: 44px;
+  display: inline-block;
+}
+.wrapper {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 3962px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
